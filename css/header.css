@@ -1,0 +1,116 @@
+header {
+  display: flex;
+  margin-top: 17px;
+  flex-direction: column; }
+  header a {
+    color: #3A4047; }
+
+.shadow-line {
+  height: 4px;
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.05); }
+
+.header-info {
+  display: flex;
+  height: 106px;
+  align-items: center;
+  justify-content: space-between; }
+  .header-info__logo {
+    display: flex; }
+  .header-info__text {
+    text-align: center; }
+  .header-info__personal {
+    display: flex; }
+
+.info-text__decr {
+  max-width: 375px;
+  font-size: 16px;
+  line-height: 19px; }
+
+.info-text__work-time {
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px; }
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px; }
+  .info-block__person {
+    font-size: 14px;
+    display: flex; }
+  .info-block__email {
+    font-size: 14px;
+    display: flex;
+    align-self: flex-end; }
+  .info-block__number-phone {
+    display: flex; }
+  .info-block__fb {
+    margin-top: 20px;
+    align-self: flex-end; }
+  .info-block__phone {
+    display: flex;
+    margin-top: 20px; }
+  .info-block__pointer {
+    margin-top: 2px;
+    margin-left: 6px; }
+
+.phone-number {
+  margin-left: 9px; }
+
+.person {
+  margin-top: 6px;
+  margin-right: 6px; }
+
+.card-block {
+  background-color: #1AB0CE;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  left: 38px;
+  bottom: 25px; }
+  .card-block__number {
+    padding-top: 3.4px;
+    font-size: 14px;
+    color: white;
+    text-align: center; }
+
+.header-info__card {
+  display: flex;
+  position: relative; }
+
+.info-block__pointer {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  background: #EDEDED;
+  border-radius: 50%; }
+  .info-block__pointer .pointer-bottom {
+    margin-bottom: 2.5px; }
+
+.header-menu {
+  display: flex;
+  align-items: center; }
+
+.header-menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header-menu__item {
+  padding: 19px 0; }
+  .header-menu__item::after {
+    height: 13px;
+    border: 1px solid #E8EDF2;
+    transform: rotate(90deg); }
+  .header-menu__item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #3A4047;
+    padding: 16px 0; }
+  .header-menu__item a:hover {
+    color: #1AB0CE;
+    cursor: pointer;
+    border-top: 1px solid #1AB0CE; }

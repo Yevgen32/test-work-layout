@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Clear Sans Regular";
+  color: #3A4047;
+}
+.wrapper {
+  width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+li {
+  list-style-type: none;
+}
+
+@import "fonts";
+@import "header";
+@import "main";
+@import "buttton/btn-color";
+@import "footer";
+
